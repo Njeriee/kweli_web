@@ -4,37 +4,40 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/dist/output.css">
     <title>about</title>
   </head>
   <body>
-    <section>
+    <section class="home h-screen w-screen bg-cover bg-no-repeat bg-zinc-700 bg-blend-overlay text-white">
       <nav></nav>
-      <div>
-        <h1>
-          Our nature is <br />
-          effortless technology.
+      <div class="flex justify-center pt-40">
+        <h1 class="text-7xl font-thin text-center leading-snug  mt-20 pt-48">
+          OUR NATURE IS <br>
+          <span class="font-bold">EFFORTLESS TECHNOLOGY.</span>
         </h1>
       </div>
     </section>
-    <section>
-      <div>
-        <h2>About Us</h2>
-        <p>
+    <section class=" flex flex-row py-28 justify-center">
+      <div class="basis-1/2 px-32">
+        <h2 class="text-5xl text-black font-bold py-8 ">About Us</h2>
+        <p class="text-gray-600 text-2xl leading-10">
           Data and information stand at the center of all business. It is the
           connecting tool that informs our strategic decisions. Kweli Capital
           stands at the epicenter of this crossroad and acts as the connecting
           piece between businesses and their markets.
         </p>
-        <a href="">Read more</a>
+        <div class=" text-right text-2xl py-5">
+          <a href="">Read more</a>
+        </div>
       </div>
-      <div>
-        <img src="" alt="about us" />
+      <div class="basis-1/2 -mt-52 ml-20">
+        <img class="h-7/12 w-7/12" src="images/home_image_1.png" alt="about us" />
       </div>
     </section>
-    <section>
-      <h1>Our Mission</h1>
-      <blockquote>
-        To provide the public & private sectors with bespoke, data-driven ICT
+    <section class="flex flex-col justify-center py-40 bg-stone-200">
+      <h1 class="text-5xl font-bold text-center my-10">Our Mission</h1>
+      <blockquote class="text-5xl text-center italic font-thin text-gray-600">
+        To provide the public & private sectors with bespoke, data-driven <br> ICT
         solutions that inform their strategic decisions.
       </blockquote>
     </section>
@@ -97,7 +100,9 @@
                 <p>Uganda</p>
             </div>
         </div>
-        <div><p>© Copyright KWELI CAPITAL. All Rights Reserved</p></div>
+        <div class="bg-black">
+            <p>© Copyright KWELI CAPITAL. All Rights Reserved</p>
+        </div>
     </footer>
   </body>
 </html>
