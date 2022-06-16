@@ -9,168 +9,200 @@
   </head>
   <body>
     <section
-      class="home h-screen w-screen bg-cover bg-no-repeat bg-zinc-700 bg-blend-overlay text-white"
+      class="home md:h-screen md:w-screen bg-cover bg-no-repeat bg-zinc-700 bg-blend-overlay text-white"
     >
       <nav></nav>
       <div class="flex justify-center pt-40">
-        <h1 class="text-7xl font-thin text-center leading-snug mt-20 pt-48">
+        <h1 class="md:text-7xl text-4xl font-thin text-center leading-snug mt-20 pt-56">
           OUR NATURE IS <br />
           <span class="font-bold">EFFORTLESS TECHNOLOGY.</span>
         </h1>
       </div>
     </section>
-    <section class="flex flex-row py-28 justify-center">
-      <div class="basis-1/2 pl-36">
-        <h2 class="text-5xl text-black font-bold py-8">About Us</h2>
-        <p class="text-gray-600 text-2xl leading-10">
-          Data and information stand at the center of all business. It is the
-          connecting tool that informs our strategic decisions. Kweli Capital
-          stands at the epicenter of this crossroad and acts as the connecting
-          piece between businesses and their markets.
-        </p>
-        <div class="text-right text-2xl py-5">
-          <a href="">Read more</a>
+    <section class="flex md:flex-row flex-col px-10 pb-16 md:py-28 justify-center">
+      <div>
+        <div class="basis-1/2 -mt-20 md:ml-2 md:-mt-72 md:float-right">
+          <img
+            class="md:h-7/12 md:w-7/12 px-10 md:ml-40 pb-10"
+            src="images/about_img_1.png"
+            alt="about us"
+          />
+        </div>
+        <div class="basis-1/2 md:pl-24">
+          <h2 class="text-3xl md:text-5xl text-black font-bold py-8">About Us</h2>
+          <p class="text-gray-600 text-2xl leading-10">
+            Data and information stand at the center of all business. It is the
+            connecting tool that informs our strategic decisions. Kweli Capital
+            stands at the epicenter of this crossroad and acts as the connecting
+            piece between businesses and their markets.
+          </p>
+          <div class="text-2xl py-5">
+            <a href="" class="font-bold">Read more
+              <svg xmlns="http://www.w3.org/2000/svg" class="inline-flex" width="58" height="50" viewBox="0 0 29 25"><g><g><path fill="none" stroke="#656565" stroke-miterlimit="20" d="M10 10v0l4.5 5v0l4.5-5v0"/></g></g></svg>
+            </a>
+          </div>
         </div>
       </div>
-      <div class="basis-1/2 -mt-52 ml-20">
-        <img
-          class="h-7/12 w-7/12"
-          src="images/home_image_1.png"
-          alt="about us"
-        />
-      </div>
     </section>
-    <section class="flex flex-col justify-center bg-gray-200">
-      <div class="px-40 text-4xl text-center py-40">
-        <img class="h-72 -mb-72" src="/src/images/quotes.png" alt="" />
-        <h1 class="text-5xl font-bold text-center py-5">Our Mission</h1>
-        <p class="mx-44 italic font-thin text-gray-600">
+    <section class="flex flex-col justify-center bg-card">
+      <div class=" p-5 py-16 text-3xl text-center md:px-40 md:text-4xl md:py-40">
+        <h1 class="md:text-5xl font-bold py-5 pb-12">Our Mission</h1>
+        <p class="md:mx-44 italic font-thin text-gray-600 text-center">
+          <img class="inline-flex md:scale-50 md:-mt-36 md:-mr-20" src="/src/images/quotes.png" alt="" />
           To provide the public & private sectors with bespoke, data-driven ICT
           solutions that inform their strategic decisions.
+          <img class="inline-flex md:-scale-50 md:-ml-12 md:-mb-32" src="/src/images/quotes.png" alt="" />
         </p>
-        <img class="h-72 -mb-52 -ml-80 float-right" src="/src/images/quotes.png" alt="" />
       </div>
     </section>
-    <section class="flex flex-row px-32 py-20 pt-40">
+    <section class="flex flex-col mx-5 md:flex-row py-10 md:px-32 md:py-20 md:pt-40">
       <div
-        class="text-5xl basis-4/12 text-black h-1/4 w-10 overflow-visible px-20 py-28 rounded-3xl -mt-20 -mr-20 bg-gray-200 z-10"
+        class="py-8 px-3 w-44 text-2xl -mb-16 ml-28 rounded-lg md:text-5xl basis-4/12 text-black h-1/4 md:w-10 md:p-20 md:mx-20 md:rounded-3xl md:-mt-20  md:-mr-56 bg-card z-10"
       >
-        <p class="">We develop powerful professional relationships.</p>
+        <p class="md:leading-normal font-bold">We develop powerful professional relationships.</p>
       </div>
       <div class="basis-8/12 -z-20">
         <img
-          class="h-10/12 w-10/12"
+          class=""
           src="images/about_image_2.png"
           alt="about us image 3"
         />
       </div>
     </section>
-    <section class="flex flex-col py-10 justify-center">
-      <h2 class="text-5xl font-bold text-center">Meet the team</h2>
-      <div class="p-20">
-        <p class="text-4xl font-thin text-black">Filter by role</p>
-        <button class="m-10 px-10 py-5 bg-gray-200 rounded-full text-3xl">
-          Board Members
-        </button>
-        <button class="mr-10 px-10 py-5 bg-gray-200 rounded-full text-3xl">
-          Management
-        </button>
-        <button class="mb-10 px-10 py-5 bg-gray-200 rounded-full text-3xl">
-          All
-        </button>
+    <section class="flex flex-col py-10 md:justify-center">
+      <h2 class="text-3xl md:text-5xl font-bold text-center">Meet the team</h2>
+      <div class="px-5 md:p-20">
+        <p class="text-3xl font-thin text-black">Filter by role</p>
+        <div class="flex pb-5 flex-col md:flex-row py-5 ">
+          <button class="mb-4 px-2 md:mr-4 md:px-10 py-5 bg-card rounded-full text-2xl active:bg-black active:text-white">
+            Board Members
+          </button>
+          <button class="mb-4 px-2 md:mr-4 md:px-10 py-5 bg-card rounded-full text-2xl active:bg-black active:text-white">
+            Management
+          </button>
+          <button class="mb-4 px-2 md:px-10 py-5  bg-card rounded-full text-2xl active:bg-black active:text-white">
+            All
+          </button>
+        </div>
         <div class="flex flex-col justify-center px-22">
-          <div class="grid grid-cols-3 px-44">
+          <div class="flex flex-col">
             <div>
-              <img class="h-96" src="/src/images/chris_senanu.png" alt="Kris Senanu - Board Memeber" />
-              <div class="my-10">
-                <h6 class="text-3xl font-bold">Kris Senanu</h6>
-                <p class="text-xl">Board Member</p>
+              <div class="grid md:grid-cols-3 md:px-44">
+                <div>
+                  <img class="h-96" src="/src/images/chris_senanu.png" alt="Kris Senanu - Board Memeber" />
+                  <div class="my-10">
+                    <h6 class="text-3xl font-bold">Kris Senanu</h6>
+                    <p class="text-xl">Board Member</p>
+                  </div>
+                </div>
+                <div>
+                  <img class="h-96" src="/src/images/calvin_nyachoti.png" alt="Calvin Nyachoti - Board Memeber" />
+                  <div class="my-10">
+                    <h6 class="text-3xl font-bold">Calvin Nyachoti</h6>
+                    <p class="text-xl">Board Member</p>
+                  </div>
+                </div>
+                <div>
+                  <img class="h-96" src="/src/images/hildah_moraa.png" alt="Hilda Moraa - Board Member" />
+                  <div class="my-10">
+                    <h6 class="text-3xl font-bold">Hilda Moraa</h6>
+                    <p class="text-xl">Board Member</p>
+                  </div>
+                </div>
+            </div>
+            <div class="grid md:grid-cols-2 md:px-44 items-center">
+              <div class=" md:ml-52 ">
+                <img class="h-96" src="/src/images/kennedy_kipng'etich.png" alt="Kennedy Kipng'etich - Board Member" />
+                <div class="my-10">
+                  <h6 class="text-3xl font-bold">Kennedy Kipng'etich</h6>
+                  <p class="text-xl">Board Member</p>
+                </div>
+              </div>
+              <div class="">
+                <img class="h-96" src="/src/images/phillipa_mbonye.png" alt="Phillipa Mbonye - Board Member" />
+                <div class="my-10">
+                  <h6 class="text-3xl font-bold">Phillipa Mbonye</h6>
+                  <p class="text-xl">Board Member</p>
+                </div>
               </div>
             </div>
-            <div>
-              <img class="h-96" src="/src/images/calvin_nyachoti.png" alt="Calvin Nyachoti - Board Memeber" />
-              <div class="my-10">
-                <h6 class="text-3xl font-bold">Calvin Nyachoti</h6>
-                <p class="text-xl">Board Member</p>
-              </div>
-            </div>
-            <div>
-              <img class="h-96" src="/src/images/hildah_moraa.png" alt="Hilda Moraa - Board Member" />
-              <div class="my-10">
-                <h6 class="text-3xl font-bold">Hilda Moraa</h6>
-                <p class="text-xl">Board Member</p>
-              </div>
-            </div>
-            <div class="">
-              <img class="h-96" src="/src/images/kennedy_kipng'etich.png" alt="Kennedy Kipng'etich - Board Member" />
-              <div class="my-10">
-                <h6 class="text-3xl font-bold">Kennedy Kipng'etich</h6>
-                <p class="text-xl">Board Member</p>
-              </div>
-            </div>
-            <div class="">
-              <img class="h-96" src="/src/images/phillipa_mbonye.png" alt="Phillipa Mbonye - Board Member" />
-              <div class="my-10">
-                <h6 class="text-3xl font-bold">Phillipa Mbonye</h6>
-                <p class="text-xl">Board Member</p>
-              </div>
-            </div>  
           </div>
-          <div class="my-10 mx-44 border-t-2"></div>
-          <div class="grid grid-cols-4 gap-10">
+          <div class="my-10 mb-20 mx-44 border-t-2"></div>
+          <div class="grid md:grid-cols-4 md:gap-10">
             <div>
               <img class="h-96" src="/src/images/Rebecca_Okwara.png" alt="Rebecca Okwara - Corporate Affairs Director" />
               <div class="my-10">
-                <h6 class="text-3xl font-bold">Phillipa Mbonye</h6>
-                <p class="text-xl">Board Member</p>
+                <h6 class="text-3xl font-bold">Rebecca Okwara</h6>
+                <p class="text-xl">Corporate Affairs Director</p>
               </div>
             </div>
             <div>
               <img class="h-96" src="/src/images/jonson_mwangi.png" alt="Jonson Mwangi - Project Manager" />
               <div class="my-10">
-                <h6 class="text-3xl font-bold">Phillipa Mbonye</h6>
-                <p class="text-xl">Board Member</p>
+                <h6 class="text-3xl font-bold">Jonson Mwangi</h6>
+                <p class="text-xl">Project Manager</p>
               </div>
             </div>
             <div>
               <img class="h-96" src="/src/images/edwin_mukiri.png" alt="Edwin Mukiri - Product Development Manager" />
               <div class="my-10">
-                <h6 class="text-3xl font-bold">Phillipa Mbonye</h6>
-                <p class="text-xl">Board Member</p>
+                <h6 class="text-3xl font-bold">Edwin Mukiri</h6>
+                <p class="text-xl">Product Development Manager</p>
               </div>
             </div>
             <div>
               <img class="h-96" src="/src/images/kevin_kibugi.png" alt="Kelvin Kibugi - Senior Software Engineer" />
               <div class="my-10">
-                <h6 class="text-3xl font-bold">Phillipa Mbonye</h6>
-                <p class="text-xl">Board Member</p>
+                <h6 class="text-3xl font-bold">Kelvin Kibugi</h6>
+                <p class="text-xl">Senior Software Engineer</p>
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <!-- <section>
-      <h2>Join the leading organizations using Kweli</h2>
-      <div></div>
-    </section> -->
+    <section class="pb-20">
+      <div class="container mx-auto px-16 sm:h-screen/4 sm:py-8">
+        <h1 class="text-center font-semibold text-3xl md:text-4xl py-6">Join the leading organizations using Kweli</h1>
+        <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-3 md:place-items-stretch">
+            <div class="bg-card p-4 w-32 h-30 md:w-full rounded-lg grid place-items-center">
+                <img class="scale-75" src="/src/images/genghis_logo.png" alt="genghis capital logo">
+            </div>
+            <div class="bg-card p-4 w-32 h-30 md:w-full rounded-lg grid place-items-center">
+                <img class="scale-75" src="/src/images/ihf_logo.png" alt="hf group logo">
+            </div>
+            <div class="bg-card p-4 w-32 h-30 md:w-full rounded-lg grid place-items-center">
+                <img class="scale-75 -mt-6" src="/src/images/nrb_city_coucil_logo.png" alt="county government logo">
+            </div>
+            <div class="bg-card p-4 w-32 h-30 md:w-full rounded-lg grid place-items-center">
+                <img class="scale-75" src="/src/images/telcom_logo.png" alt="telkom logo">
+            </div>
+            <div class="bg-card p-4 w-32 h-30 md:w-full rounded-lg grid place-items-center">
+                <img class="scale-75" src="/src/images/boma_yangu_logo.png" alt="boma yangu logo">
+            </div>
+            <div class="bg-card p-4 w-32 h-30 md:w-full rounded-lg grid place-items-center">
+                <img class="scale-75 -mt-6" src="/src/images/huduma_logo.png" alt="huduma logo">
+            </div>
+        </div>
+     </div>
+    </section>
     <section class="my-10 border-t-2"></section>
-    <footer class="flex flex-col justify-center pt-10">
-      <div class="flex flex-row px-20">
-        <div class="basis-1/2 pl-24">
-          <div class="rounded-full bg-black w-28 h-28 p-8">
+    <footer class="flex flex-col md:justify-center pt-10">
+      <div class="flex flex-row md:px-24 px-4">
+        <div class="basis-1/2 md:pl-28">
+          <div class="rounded-full bg-black w-10 h-12  md:w-28 md:h-28 p-8">
             <img src="/src/images/kweli_logo.png" alt="kweli capital logo" />
             <img class="-mt-3 ml-6" src="/src/images/kweli_logo2.png" alt="">
           </div>
-          <p class="text-2xl my-10 pb-20 text-gray-400">
+          <p class="md:text-2xl md:my-10 pb-20 text-gray-400">
             Inspired by power of data as a point of connection, <br> we not only
             connect people, businesses, and <br> industries, we inspire informed
             strategic decisions <br> that power the future.
           </p>
         </div>
-        <div class="basis-1/4 text-2xl ">
+        <div class="basis-1/4 md:text-2xl ">
           <p class="pb-10 text-gray-400 font-bold">COMPANY</p>
-          <ul class="leading-10">
+          <ul class="leading-loose">
             <li><a href="">About</a></li>
             <li><a href="">solutions</a></li>
             <li><a href="">Amaka Fund</a></li>
@@ -179,31 +211,31 @@
             <li><a href="">Contact us</a></li>
           </ul>
         </div>
-        <div class="basis-1/4 text-2xl">
+        <div class="basis-1/4 md:text-2xl float-right">
           <div>
             <p class="pb-10 text-gray-400 font-bold">COUNTRIES</p>
             <p class="pb-10">Kenya</p>
             <p>Uganda</p>
           </div>
-          <div class="pt-20">
+          <div class="pt-32 text-black">
             <span class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
-              <a class="text-gray-500">
-                <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+              <a class="bg-gray-300 p-2 mr-1 md:p-4 rounded-full">
+                <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class=" w-5 h-5 text-black" viewBox="0 0 24 24">
                   <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
                 </svg>
               </a>
-              <a class="ml-3 bg-gray-500">
-                <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+              <a class="md:ml-3 bg-gray-300 p-2 mr-1 md:p-4 rounded-full">
+                <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-black" viewBox="0 0 24 24">
                   <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
                 </svg>
               </a>
-              <a class="ml-3 text-gray-500">
+              <a class="md:ml-3 bg-gray-300 p-2 mr-1 md:p-4 rounded-full">
                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
                   <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
                   <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
                 </svg>
               </a>
-              <a class="ml-3 text-gray-500">
+              <a class="md:ml-3 bg-gray-300 p-2 md:p-4 rounded-full">
                 <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
                   <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
                   <circle cx="4" cy="4" r="2" stroke="none"></circle>

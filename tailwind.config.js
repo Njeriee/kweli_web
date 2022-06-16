@@ -4,7 +4,8 @@ module.exports = {
   theme: {
     extend: {
       backgroundColor:{
-        'home-background-color':'#040404'
+        'home-bg-color':'#040404',
+        'card': '#ebebeb'
       }
     },
   },
